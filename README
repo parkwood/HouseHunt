@@ -1,0 +1,7 @@
+this project contains two eclipse projects
+
+one containing the master copy of the html webapp
+one containing a shell for google app engine deployment
+... it should contain a third project for android phonegap deployment - 
+
+the app so far allows user to search for rent/sale houses by partial postcode - tn27, or s7 for example
