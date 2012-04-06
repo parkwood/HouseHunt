@@ -1,0 +1,21 @@
+<project basedir="..">
+
+	<!-- ================================= 
+          target: copyToWebapp              
+         ================================= -->
+    <target name="copyToWebapp" depends="" description="description">
+        <copy todir="${webapp}/war" overwrite="true">
+        	<fileset dir="${basedir}/root">
+        		 <include name="**"/>
+        		</fileset>
+        </copy>
+    </target>
+    <target name="copyToAndroid" depends="" description="description">
+        <copy todir="${android}/assets/www" overwrite="true">
+        	<fileset dir="${basedir}/root">
+        		 <include name="**"/>
+        		</fileset>
+        </copy>
+    </target>
+	
+</project>
